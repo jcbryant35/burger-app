@@ -1,8 +1,15 @@
 import React from 'react';
+
+/* Styles
+**********************************************************************/
+import './styles/navigation_styles.css';
+
+/* Icons
+**********************************************************************/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes} from '@fortawesome/free-solid-svg-icons';
-import './styles/navigation_styles.css';
+
 
 function Navigation() {
     return (

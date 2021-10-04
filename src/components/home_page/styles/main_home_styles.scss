@@ -1,7 +1,7 @@
 @import '_reset.scss';
 @import '_variables';
 
-main {
+#homeMain {
     width: 100vw;
     height: 100vh;
     background-image: url('../images/logo.PNG');
@@ -10,12 +10,14 @@ main {
     background-position: center;
 }
 
-header {
+#homeHeader {
     background-color: $color1;
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
 }
 
 #menuBtnContainer {
@@ -31,10 +33,7 @@ header {
         font-size: 7vw;
         color: $color1;
     }
-    #menuBtn {
-        background-color: transparent;
-        border: none;
-        outline: none;
+    a {
         font-size: 10vw;
         color: $color2;
     }

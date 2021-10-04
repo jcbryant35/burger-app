@@ -17,16 +17,16 @@ import Cart from './Cart';
 function Home() {
     return (
         <div>
-           <main>
-               <header>
+           <main id="homeMain">
+               <header id="homeHeader">
                    <Navigation />
                    <Cart />
                 </header>
                 <section id="menuBtnContainer">
                     <p>Menu</p>
-                    <button id="menuBtn">
+                    <a href="#menuMain">
                         <FontAwesomeIcon icon={faChevronDown} id="downArrow" />
-                    </button>
+                    </a>
                 </section>
             </main> 
         </div>

@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-main {
+#homeMain {
   width: 100vw;
   height: 100vh;
   background-image: url("../images/logo.PNG");
@@ -14,7 +14,7 @@ main {
   background-position: center;
 }
 
-header {
+#homeHeader {
   background-color: #3D232E;
   width: 100%;
   height: 50px;
@@ -24,6 +24,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 }
 
 #menuBtnContainer {
@@ -48,10 +50,7 @@ header {
   color: #3D232E;
 }
 
-#menuBtnContainer #menuBtn {
-  background-color: transparent;
-  border: none;
-  outline: none;
+#menuBtnContainer a {
   font-size: 10vw;
   color: #98552B;
 }
