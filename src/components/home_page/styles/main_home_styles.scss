@@ -1,4 +1,5 @@
 @import '_reset.scss';
+@import '_variables';
 
 main {
     width: 100vw;
@@ -10,9 +11,31 @@ main {
 }
 
 header {
-    //border: 1px solid red;
+    background-color: $color1;
     width: 100%;
-    height: auto;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+#menuBtnContainer {
+    //border: 1px solid red;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+        text-align: center;
+        font-size: 7vw;
+        color: $color1;
+    }
+    #menuBtn {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 10vw;
+        color: $color2;
+    }
 }
