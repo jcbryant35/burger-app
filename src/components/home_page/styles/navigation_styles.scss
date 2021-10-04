@@ -1,0 +1,40 @@
+@import '_reset.scss';
+@import '_variables.scss';
+
+#navBtn {
+    margin: 5px;
+    font-size: 25px;
+    color: $color1; 
+}
+
+#navMenu {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    background-color: $color1;
+    //display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#closeNavBtn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 4.5vw;
+    color: $color3;
+}
+
+li {
+    font-size: 5vw;
+    list-style-type: none;
+    a {
+        text-decoration: none;
+        color: $color3;
+    }
+}
+

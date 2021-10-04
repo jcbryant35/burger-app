@@ -1,0 +1,18 @@
+@import '_reset.scss';
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/logo.PNG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+header {
+    //border: 1px solid red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
