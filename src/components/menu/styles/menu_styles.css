@@ -6,7 +6,7 @@
 }
 
 #menuMain {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   margin-top: 100px;
   display: -webkit-box;
@@ -105,5 +105,32 @@
   color: #98552B;
   padding: 5px;
   width: 40%;
+}
+
+#galleryBtnContainer {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#galleryBtnContainer p {
+  text-align: center;
+  font-size: 7vw;
+  color: #3D232E;
+}
+
+#galleryBtnContainer a {
+  font-size: 10vw;
+  color: #98552B;
 }
 /*# sourceMappingURL=menu_styles.css.map */

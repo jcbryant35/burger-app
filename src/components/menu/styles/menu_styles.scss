@@ -3,7 +3,7 @@
 @import '_fonts';
 
 #menuMain {
-    height: 100vh;
+    height: auto;
     width: 100vw;
     margin-top: 100px;
     display: flex;
@@ -81,4 +81,22 @@
     color: $color2;
     padding: 5px;
     width: 40%;
+}
+
+#galleryBtnContainer {
+    position: relative; 
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+        text-align: center;
+        font-size: 7vw;
+        color: $color1;
+    }
+    a {
+        font-size: 10vw;
+        color: $color2;
+    }
 }

@@ -1,0 +1,83 @@
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_fonts.scss';
+
+#galleryMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: $font1;
+    background-color: $color2;
+    letter-spacing: 2.5px;
+}
+
+#galleryHeader {
+    margin-top: 60px;
+    text-align: center;
+    h1 {
+        font-size: 10vw;
+        color: $color1;
+        margin-bottom: 10px;
+    }
+}
+
+#imageWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8 {
+    width: 50%;
+    height: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid $color2;
+}
+
+.image1 {
+    background-image: url('../images/burger_home.jpg');
+}
+
+.image2 {
+    background-image: url('../images/burger.jpg');
+}
+
+.image3 {
+    background-image: url('../images/burger_combo.jpg');
+}
+
+.image4 {
+    background-image: url('../images/burger_combo2.jpg');
+}
+
+.image5 {
+    background-image: url('../images/burger_combo3.jpg');
+}
+
+.image6 {
+    background-image: url('../images/fries1.jpg');
+}
+
+.image7 {
+    background-image: url('../images/onion_rings.jpg');
+}
+
+.image8 {
+    background-image: url('../images/onion_rings2.jpg');
+}
+
+

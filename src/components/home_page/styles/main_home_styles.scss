@@ -1,5 +1,6 @@
 @import '_reset.scss';
 @import '_variables';
+@import '_fonts';
 
 #homeMain {
     width: 100vw;
@@ -8,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    font-family: $font1;
 }
 
 #homeHeader {

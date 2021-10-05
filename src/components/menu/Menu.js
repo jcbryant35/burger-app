@@ -8,6 +8,7 @@ import './styles/menu_styles.css';
 *************************************************************************/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
 function Menu() {
@@ -286,6 +287,12 @@ function Menu() {
                             <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
                         </button>
                     </div>
+                </section>
+                <section id="galleryBtnContainer">
+                    <p>Gallery</p>
+                    <a href="#galleryHeader">
+                        <FontAwesomeIcon icon={faChevronDown} id="downArrow" />
+                    </a>
                 </section>
             </main>
         </div>
