@@ -42,24 +42,24 @@
   padding: 15px;
 }
 
-#burgers {
+#burgers, #sides, #drinks, #shakes {
   height: auto;
   width: 100%;
   padding: 15px;
 }
 
-#burgers h1 {
+#burgers h1, #sides h1, #drinks h1, #shakes h1 {
   font-size: 10vw;
   color: #3D232E;
   letter-spacing: 2.5px;
 }
 
-#burgers h2 {
+#burgers h2, #sides h2, #drinks h2, #shakes h2 {
   color: #3D232E;
   letter-spacing: 2.5px;
 }
 
-#burgers p {
+#burgers p, #sides p, #drinks p, #shakes p {
   color: #3D232E;
 }
 

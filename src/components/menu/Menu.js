@@ -92,6 +92,200 @@ function Menu() {
                             <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
                         </button>
                     </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            ADD-ONS 
+                            <span className="price-line">
+                            ..........
+                            </span>
+                            <span className="price">$.50 each</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Bacon <br />
+                            Cheese <br />
+                            Jalepenos <br />
+                            Mushrooms <br />
+                            Grilled Onions <br />
+                        </p>
+                        <br />
+                        <h5>*Add during checkout*</h5>
+                    </div>
+                </section>
+                <section id="sides">
+                    <h1>SIDES</h1>
+                    <div className="underline"></div>
+                    <div className="foodWrapper">
+                        <h2>
+                            FRIES 
+                            <span className="price-line">
+                            ...............
+                            </span>
+                            <span className="price">$2.49</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Hand cut potato fries, deep fried to a
+                            crispy, golden perfection
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            CAJUN FRIES 
+                            <span className="price-line">
+                            ..........
+                            </span>
+                            <span className="price">$2.69</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Cajun seasoned and battered hand cut potato fries,
+                            deep fried to a crispy golden perfection 
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            ONION RINGS 
+                            <span className="price-line">
+                            ...............
+                            </span>
+                            <span className="price">$2.79</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Hand cut onion rings, battered and deep fried
+                            to a cripsy golden brown perfection
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            HOME-MADE CHIPS 
+                            <span className="price-line">
+                            ..........
+                            </span>
+                            <span className="price">$2.99</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Hand cut potato chips, deep fried to a crispy golden
+                            perfection, with your choice of seasoning (salt or
+                            cajun seasoning)
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                </section>
+                <section id="drinks">
+                    <h1>DRINKS</h1>
+                    <div className="underline"></div>
+                    <div className="foodWrapper">
+                        <h2>
+                            BOTTLED WATER
+                            <span className="price-line">
+                            ..........
+                            </span>
+                            <span className="price">$1.49</span>
+                        </h2>
+                        <br />
+                        <p>
+                           Your choice of Ozarka or Dasani, served ice cold
+                           or temperate 
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            FOUNTAIN DRINK 
+                            <span className="price-line">
+                            ...............
+                            </span>
+                            <span className="price">$1.79</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Your choice of Coke, Sprite, Dr. Pepper, or
+                            Root Beer
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            BOTTLED SODA
+                            <span className="price-line">
+                            ...............
+                            </span>
+                            <span className="price">$1.95</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Your choice of Coke, Sprite, Dr. Pepper, or
+                            Root Beer
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                    <div className="foodWrapper">
+                        <h2>
+                            CANNED SODA 
+                            <span className="price-line">
+                            ..........
+                            </span>
+                            <span className="price">$1.25</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Your choice of Coke, Sprite, Dr. Pepper, or Root
+                            Beer
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
+                </section>
+                <section id="shakes">
+                    <h1>SHAKES</h1>
+                    <div className="underline"></div>
+                    <div className="foodWrapper">
+                        <h2>
+                            HOME-MADE MILKSHAKES
+                            <span className="price-line">
+                            ...............
+                            </span>
+                            <span className="price">$5.99</span>
+                        </h2>
+                        <br />
+                        <p>
+                            Hand scooped ice cream blended with milk, available
+                            in the flavors of vanilla, chocolate, or strawberry
+                        </p>
+                        <br />
+                        <button className="addToCartBtn">
+                            <FontAwesomeIcon icon={faPlusCircle} /> Add to Cart
+                        </button>
+                    </div>
                 </section>
             </main>
         </div>
