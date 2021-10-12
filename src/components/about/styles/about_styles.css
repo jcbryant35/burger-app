@@ -6,7 +6,7 @@
 }
 
 #aboutMain {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   margin-top: 100px;
   display: -webkit-box;
@@ -31,6 +31,7 @@
 
 #aboutHeader h1 {
   padding: 15px;
+  font-size: 12vw;
 }
 
 #textBox {

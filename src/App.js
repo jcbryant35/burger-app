@@ -6,6 +6,7 @@ import Home from './components/home_page/Home';
 import Menu from './components/menu/Menu';
 import Gallery from './components/gallery/Gallery';
 import About from './components/about/About';
+import Locations from './components/locations/Locations';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Menu />
       <Gallery />
       <About />
+      <Locations />
     </div>
   )
 };
