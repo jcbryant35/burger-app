@@ -18,13 +18,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 55px 0px 55px 0px;
+    margin: 55px 0px 15px 0px;
     h1 {
         color: $color1;
         font-size: 12vw;
         letter-spacing: 2.5px;
         padding: 15px;
     }
+}
+
+#locationText {
+    color: $color1;
+    line-height: 25px;
+    margin: 15px;
 }
 
 /*#galleryBtnContainer {
