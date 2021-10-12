@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#aboutMain {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#aboutHeader {
+  color: #98552B;
+  width: 100vw;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#aboutHeader h1 {
+  padding: 15px;
+}
+
+#textBox {
+  height: auto;
+  width: 90%;
+}
+
+#textBox p {
+  color: #3D232E;
+  line-height: 40px;
+  margin-bottom: 75px;
+}
+
+#locationBtnContainer {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#locationBtnContainer p {
+  text-align: center;
+  font-size: 7vw;
+  color: #3D232E;
+}
+
+#locationBtnContainer a {
+  font-size: 10vw;
+  color: #98552B;
+}
+/*# sourceMappingURL=about_styles.css.map */

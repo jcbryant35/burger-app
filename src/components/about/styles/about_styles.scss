@@ -1,0 +1,52 @@
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_fonts.scss';
+
+#aboutMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font1;
+}
+
+#aboutHeader {
+    //background-color: $color1;
+    color: $color2;
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        padding: 15px;
+    }
+}
+
+#textBox {
+    height: auto;
+    width: 90%;
+    p {
+        color: $color1;
+        line-height: 40px;
+        margin-bottom: 75px;
+    }
+}
+
+#locationBtnContainer {
+    position: relative; 
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+        text-align: center;
+        font-size: 7vw;
+        color: $color1;
+    }
+    a {
+        font-size: 10vw;
+        color: $color2;
+    }
+}

@@ -290,7 +290,7 @@ function Menu() {
                 </section>
                 <section id="galleryBtnContainer">
                     <p>Gallery</p>
-                    <a href="#galleryHeader">
+                    <a href="#galleryMain">
                         <FontAwesomeIcon icon={faChevronDown} id="downArrow" />
                     </a>
                 </section>

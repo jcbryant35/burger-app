@@ -5,6 +5,7 @@ import React from 'react';
 import Home from './components/home_page/Home';
 import Menu from './components/menu/Menu';
 import Gallery from './components/gallery/Gallery';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Menu />
       <Gallery />
+      <About />
     </div>
   )
 };

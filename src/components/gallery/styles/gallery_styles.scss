@@ -30,6 +30,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    //margin-bottom: 50px;
 }
 
 .image1,
@@ -80,4 +81,23 @@
     background-image: url('../images/onion_rings2.jpg');
 }
 
-
+#aboutBtnContainer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    //background-color: white;
+    p {
+        text-align: center;
+        font-size: 7vw;
+        color: $color1;
+    }
+    a {
+        font-size: 10vw;
+        color: $color3;
+        margin-bottom: 25px;
+    }
+}

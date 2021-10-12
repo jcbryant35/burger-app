@@ -4,6 +4,11 @@ import React from 'react';
 ************************************************************/
 import './styles/gallery_styles.css';
 
+/* Icons
+************************************************************/
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 
 function Gallery() {
     return (
@@ -21,6 +26,12 @@ function Gallery() {
                     <div className="image6"></div>
                     <div className="image7"></div>
                     <div className="image8"></div>
+                </section>
+                <section id="aboutBtnContainer">
+                    <p>About</p>
+                    <a href="#aboutMain">
+                        <FontAwesomeIcon icon={faChevronDown} id="downArrow" />
+                    </a>
                 </section>
             </main>
         </div>

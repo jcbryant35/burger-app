@@ -28,10 +28,10 @@ function Navigation() {
                         <a href="#">GALLERY</a>
                     </li>
                     <li>
-                        <a href="#">LOCATIONS</a>
+                        <a href="#">OUR STORY</a>
                     </li>
                     <li>
-                        <a href="#">OUR STORY</a>
+                        <a href="#">LOCATIONS</a>
                     </li>
                     <li>
                         <a href="#">CONTACT US</a>

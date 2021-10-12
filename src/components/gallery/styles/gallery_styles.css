@@ -95,4 +95,33 @@
 .image8 {
   background-image: url("../images/onion_rings2.jpg");
 }
+
+#aboutBtnContainer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+#aboutBtnContainer p {
+  text-align: center;
+  font-size: 7vw;
+  color: #3D232E;
+}
+
+#aboutBtnContainer a {
+  font-size: 10vw;
+  color: #D9BCAD;
+  margin-bottom: 25px;
+}
 /*# sourceMappingURL=gallery_styles.css.map */
