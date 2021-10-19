@@ -1,0 +1,73 @@
+@import '_variables.scss';
+@import '_reset.scss';
+@import '_fonts.scss';
+
+#contactMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font1;
+}
+
+#contactHeader {
+    color: $color1;
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+    background-color: $color3;
+    h1 {
+        padding: 15px;
+        font-size: 12vw;
+    }
+}
+
+#contactIntroText {
+    width: 85%;
+    margin-top: 15px;
+    color: $color2;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+#form {
+    //border: 2px solid red;
+    width: 85%;
+    height: 35%;
+    margin-top: 25px;
+    color: $color1;
+    #name, #email, #subject {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid $color2;
+        width: 100%;
+        font-size: 20px;
+        outline-color: $color3;
+        &::placeholder {
+            color: $color2;
+        }
+    }
+    #messageBox {
+        height: 175px;
+        width: 100%;
+        font-size: 20px;
+        outline-color: $color3;
+        resize: none;
+        border: 3px solid $color2;
+        &::placeholder {
+            color: $color2;
+        }
+    }
+    #submitBtn {
+        font-size: 18px;
+        padding: 15px;
+        background-color: $color3;
+        color: $color1;
+        border: none;
+        letter-spacing: 1.5px;
+        width: 100%;
+    }
+}

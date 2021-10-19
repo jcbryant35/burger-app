@@ -10,7 +10,7 @@ const markerStyles = {
 
 const pStyles = {
     backgroundColor: '#D9BCAD',
-    padding: '5px'
+    padding: '5px',
 }
 
 
@@ -32,7 +32,8 @@ function Map() {
     > 
         <Marker latitude={30.226241} longitude={-92.658002} offsetLeft={-20} offsetTop={-10}>
             <div>
-                <FontAwesomeIcon icon={faMapMarker} style={markerStyles}/><p style={pStyles}>BOUDREAUX'S BURGERS</p>
+                <FontAwesomeIcon icon={faMapMarker} style={markerStyles}/>
+                <p style={pStyles}>BOUDREAUX'S BURGERS</p>
             </div>
         </Marker>
     </ReactMapGL>

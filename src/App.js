@@ -7,6 +7,7 @@ import Menu from './components/menu/Menu';
 import Gallery from './components/gallery/Gallery';
 import About from './components/about/About';
 import Locations from './components/locations/Locations';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Gallery />
       <About />
       <Locations />
+      <Contact />
     </div>
   )
 };

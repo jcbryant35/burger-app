@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#contactMain {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#contactHeader {
+  color: #3D232E;
+  width: 100vw;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #D9BCAD;
+}
+
+#contactHeader h1 {
+  padding: 15px;
+  font-size: 12vw;
+}
+
+#contactIntroText {
+  width: 85%;
+  margin-top: 15px;
+  color: #98552B;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+#form {
+  width: 85%;
+  height: 35%;
+  margin-top: 25px;
+  color: #3D232E;
+}
+
+#form #name, #form #email, #form #subject {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #98552B;
+  width: 100%;
+  font-size: 20px;
+  outline-color: #D9BCAD;
+}
+
+#form #name::-webkit-input-placeholder, #form #email::-webkit-input-placeholder, #form #subject::-webkit-input-placeholder {
+  color: #98552B;
+}
+
+#form #name:-ms-input-placeholder, #form #email:-ms-input-placeholder, #form #subject:-ms-input-placeholder {
+  color: #98552B;
+}
+
+#form #name::-ms-input-placeholder, #form #email::-ms-input-placeholder, #form #subject::-ms-input-placeholder {
+  color: #98552B;
+}
+
+#form #name::placeholder, #form #email::placeholder, #form #subject::placeholder {
+  color: #98552B;
+}
+
+#form #messageBox {
+  height: 175px;
+  width: 100%;
+  font-size: 20px;
+  outline-color: #D9BCAD;
+  resize: none;
+  border: 3px solid #98552B;
+}
+
+#form #messageBox::-webkit-input-placeholder {
+  color: #98552B;
+}
+
+#form #messageBox:-ms-input-placeholder {
+  color: #98552B;
+}
+
+#form #messageBox::-ms-input-placeholder {
+  color: #98552B;
+}
+
+#form #messageBox::placeholder {
+  color: #98552B;
+}
+
+#form #submitBtn {
+  font-size: 18px;
+  padding: 15px;
+  background-color: #D9BCAD;
+  color: #3D232E;
+  border: none;
+  letter-spacing: 1.5px;
+  width: 100%;
+}
+/*# sourceMappingURL=contact_styles.css.map */

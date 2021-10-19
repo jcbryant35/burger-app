@@ -5,6 +5,11 @@ import Map from './Maps';
 **********************************************/
 import './styles/location_styles.css';
 
+/* Icons
+**********************************************/
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 
 function Location() {
     return (
@@ -20,6 +25,12 @@ function Location() {
                     Jennings, La 70546 <br />
                     337-259-8432
                 </article>
+                <section id="contactBtnContainer">
+                    <p>Contact Us</p>
+                    <a href="#contactMain">
+                        <FontAwesomeIcon icon={faChevronDown} id="downArrow" />
+                    </a>
+                </section>
             </main>
         </div>
     )
