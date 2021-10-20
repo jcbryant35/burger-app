@@ -1,0 +1,56 @@
+@import '_reset.scss';
+@import '_fonts.scss';
+@import '_variables.scss';
+
+#storeInfoMain {
+    height: auto;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font1;
+}
+
+#storeInfoHeader {
+    color: $color1;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0px;
+    h1 {
+        padding: 15px;
+        font-size: 8vw;
+    }
+}
+
+#storeInfoText {
+    width: 70%;
+    margin: 15px;
+    text-align: center;
+    p {
+        color: $color1;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
+#icons {
+    margin: 45px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    color: $color1;
+}
+
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: $color1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color3;
+    letter-spacing: 1.5px;
+}
+

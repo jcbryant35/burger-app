@@ -1,0 +1,78 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#storeInfoMain {
+  height: auto;
+  width: 100vw;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#storeInfoHeader {
+  color: #3D232E;
+  width: 100vw;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#storeInfoHeader h1 {
+  padding: 15px;
+  font-size: 8vw;
+}
+
+#storeInfoText {
+  width: 70%;
+  margin: 15px;
+  text-align: center;
+}
+
+#storeInfoText p {
+  color: #3D232E;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#icons {
+  margin: 45px;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #3D232E;
+}
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: #3D232E;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #D9BCAD;
+  letter-spacing: 1.5px;
+}
+/*# sourceMappingURL=footer_styles.css.map */
