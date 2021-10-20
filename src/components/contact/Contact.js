@@ -16,10 +16,10 @@ function Contact() {
                     </p>
                 </section>
                 <form action="#" id="form">
-                    <input type="text" id="name" name="name" placeholder="NAME:" /><br /><br />
-                    <input type="text" id="email" name="email" placeholder="EMAIL:" /><br /><br />
-                    <input type="text" id="subject" name="subject" placeholder="SUBJECT:" /><br /><br /><br />
-                    <textarea id="messageBox" name="messageBox" placeholder="MESSAGE.."></textarea>
+                    <input type="text" id="name" name="name" placeholder="Name:" /><br /><br />
+                    <input type="text" id="email" name="email" placeholder="Email:" /><br /><br />
+                    <input type="text" id="subject" name="subject" placeholder="Subject:" /><br /><br /><br />
+                    <textarea id="messageBox" name="messageBox" placeholder="Message.."></textarea>
                     <br /><br />
                     <input type="submit" id="submitBtn" value="SUBMIT" />
                 </form>
